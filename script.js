@@ -1,0 +1,1 @@
+alert("welcome to my website, Enter Ok to Explore My Website")
