@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Apply Form.css">
 </head>
 
-<body>
+<body class="container">
     <!--Forms-->
 
     <h3>Apply For Join as a instructor in ARS(Academy of Royal Students)</h3>
     <form action="post">
-        <br> <label for="Full Name">Full Name:</label>
+        <br> <label for="Full Name" >Full Name:</label>
         <input type="text" name="Full Name" placeholder="Enter your Full name">
-        <br><label for="username">Username:</label>
+        <br><label for="username" >Username:</label>
         <input type="text" id="username" name="username" placeholder="Enter Your username">
         <br><label for="School">University:</label>
         <input type="text" name="School name" placeholder="Enter your University name">
@@ -30,7 +30,7 @@
             <label for="female">Female</label>
         </div>
         <label for="Subject">Select Which Subject You Want To Teach(Class 6-10):</label>
-        <br><select name="Subject">
+        <select name="Subject">
             <option value="Physics">Physics</option>
             <option value="Math">Math</option>
             <option value="Chemistry">Chemistry</option>
@@ -40,11 +40,11 @@
             <option value="I.C.T">I.C.T</option>
         </select>
         <br>
-        <label for="about">About Yourself:</label>
+        <label for="about" >About Yourself:</label>
         <textarea name="about" rows="8" cols="500">
 </textarea>
         <br>
-        <label for="Why">Why You Want To Join Us:</label>
+        <label for="Why" >Why You Want To Join Us:</label>
         <textarea name="Why" rows="8" cols="500">
 </textarea>
 <br><b>Contact Info:</b>
@@ -54,6 +54,7 @@
         <input type="text"  name="email" placeholder="Enter Your Email Address">
 
     </form>
+    <div><button class="btn"><a href="Congrats Page/congrats.html" class="link"><b>Submit</b></a></button></div>
 </body>
 
 </html>
