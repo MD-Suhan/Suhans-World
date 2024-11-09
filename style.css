@@ -9,3 +9,8 @@ td{
     border: 1px solid black
 }
 
+.copyright{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+}
