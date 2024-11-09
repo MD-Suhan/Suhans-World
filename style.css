@@ -1,6 +1,9 @@
 body{
-    background-color: rgb(223, 217, 217);
-    color: rgb(0, 0, 0);
+    background: linear-gradient(#2601ac,#0f0129)
+
+}
+body{
+    color:white;
 }
 td{
     border: 1px solid black
