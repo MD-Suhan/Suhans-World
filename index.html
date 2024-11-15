@@ -7,7 +7,6 @@
     <meta name="description" content="This is the page of Suhans Worls.">
     <title>Suhan's World</title>
     <style type="text/css">
-        
         .navbar-dev {
             * {
                 text-decoration: none;
@@ -45,7 +44,7 @@
             }
 
             button {
-                background-color: black;
+                background-color: #000000;
                 margin-left: 10px;
                 border-radius: 10px;
                 padding: 10px;
@@ -67,7 +66,7 @@
             <div class="navdiv">
                 <div class="logo"><a href="index.html">Suhans World</a></div>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="work WITH US/Apply Form.html">Work With Us</a></li>
                     <li><a href="contact me/contact.html">Contact</a></li>
                     <li><a href="About Me/about me.html">About Me</a></li>
@@ -84,8 +83,10 @@
 
     <P>Hi this is <b>MD. Sidratul Suhan</b>.</P>
     <p>Welcome tothe web world of mine..,I am a new <b><i>Web Developer</i></b> who is passionate in this field </p>
-    <div><h2>Lets Watch our Rag Day Video Of SSC 2K24:</h2></div>
-    <div class="ragday"><video width="800"  src="media/video4.mp4" controls poster="media/14.jpg"> RaG Day</video></div>
+    <div>
+        <h2>Lets Watch our Rag Day Video Of SSC 2K24:</h2>
+    </div>
+    <div class="ragday"><video width="800" src="media/video4.mp4" controls poster="media/14.jpg"> RaG Day</video></div>
     <br><img height="260" src="media/image1.jpg" alt="Depressed Student">
     <link rel="stylesheet" href="style.css">
 
@@ -94,6 +95,7 @@
 
     <table>
         <caption>Student Details</caption>
+       <thead>
         <tr>
             <th>Name</th>
             <th>Class</th>
@@ -101,9 +103,11 @@
             <th>SSC serial</th>
             <th>HSC group</th>
         </tr>
+       </thead>
 
         <!-- rowspan for merge rows & colspan for merge Colum -->
 
+       <tbody>
         <tr>
             <td>Suhan</td>
             <td rowspan="3">11th</td>
@@ -129,6 +133,7 @@
             <td>6th</td>
             <td>Science</td>
         </tr>
+       </tbody>
 
     </table>
 
@@ -250,20 +255,39 @@
         </dl>
     </ol>
 
+    <!-- about <sub>.........</sub> and <sup>........</sup> tag -->
+    subscript tag
+    <div>
+        H<sub>2</sub>O
+
+    </div>
+    Superscript tag
+    <div>
+        B<sup>2</sup>=A+C
+    </div>
+
+    <pre>
 
 
 
 
 
+  <!-- <Pre>............</Pre> tag used to display content without ignoring space and next line(enter) -->
+    </pre>
     <div>Contact me at:</div>
     <div><b>sidratulsuhan3@gmail.com</b></div>
+    <hr>
+    <hr <br>
+    <div class="copyright">
+        <footer>
+            <b>
+                <div>&copy;Copyright Disclamer!!!!</div>
+                <div>All Rights Reserved To Suhan's World</div>
+                <div>Owned By MD. Sidratul Suhan</div>
+            </b>
 
-    <br><div class="copyright"><footer>
-        <b><div>Copyright Disclamer!!!!</div>
-            <div>All Rights Reserved To Suhan's World</div>
-        <div>Owned By MD. Sidratul Suhan</div></b>
-
-    </footer></div>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>
